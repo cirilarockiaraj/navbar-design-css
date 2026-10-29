@@ -1,0 +1,56 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: rgb(75, 72, 72);
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar .nav-brand{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .nav-links{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar .nav-links li a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s linear;
+}
+
+.navbar .nav-links li{
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.navbar .nav-links li a:hover{
+    color: rgb(208, 205, 205);
+}
+
+.navbar .login-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 14px;
+    transition: 0.3s linear;
+}
+
+.navbar .login-btn:hover{
+    background-color: rgb(180, 119, 6);
+    cursor: pointer;
+}
